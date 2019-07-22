@@ -1,0 +1,197 @@
+/*resetmobile*/
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    min-width: 6.4rem;
+    font-size: 312.5%;
+}
+body {
+    color: #333;
+    font-size: .28em;
+    line-height: 1.5;
+    font-family: arial, Microsoft Yahei;
+    background: #f5f5f5;
+    webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+.bottom-fixed button, .submit_btn, .c_hd, .back-skin-brand {
+    background: linear-gradient(left, #F34141, #E2233E);
+    background: -ms-linear-gradient(left, #F34141, #E2233E);
+    background: -moz-linear-gradient(left, #F34141, #E2233E);
+    background: -webkit-linear-gradient(left, #F34141, #E2233E);
+    background: -o-linear-gradient(left, #F34141, #E2233E);
+}
+body, header, footer, section, div, span, p, img, a, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, em, i, b, u, del, menu, nav, fieldset, legend, article, aside, details, figcaption, hgroup, pre, code, from, blockquote, th, td, tr, hr, table, img, figure, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+ul, ol, li {
+    list-style: none;
+}
+em, i {
+    font-style: normal;
+}
+img {
+    border: none;
+}
+input, img {
+    vertical-align: middle;
+}
+iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+*:not(input, textarea) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type="button"], input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="time"], input[type="email"], input[type="file"], input[type="image"], input[type="number"], input[type="password"], input[type="range"], input[type="reset"], input[type="search"], input[type="submit"], input[type="tel"], input[type="text"], input[type="url"], select, textarea {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 0;
+}
+textarea:focus, input:focus {
+    outline: 0;
+}
+a {
+    color: #6E7D8B;
+    text-decoration: none;
+    outline: 0;
+}
+a:active, a:hover, a.current {
+    outline: 0;
+}
+.c {
+    text-align: center;
+}
+.tr {
+    text-align: right;
+}
+.f60, input.f60 {
+    color: #FF4C06;
+}
+.f00 {
+    color: #f00;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    vertical-align: middle;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    margin: 0;
+    -webkit-writing-mode: horizontal-tb;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+input {
+    color: #333;
+}
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@media screen and (min-width: 410px) {
+    html {
+        font-size: 345%;
+    }
+}
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 469%;
+    }
+}
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 625%;
+    }
+}
+
+@media screen and (min-width: 645px) and (-webkit-device-pixel-ratio: 3){/*兼容全屏*/
+    html {
+        font-size: 615%;
+    }
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+    html {
+        font-size: 260%;
+    }
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+    html {
+        font-size: 260%;
+    }
+}
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 Plus */
+    html {
+        font-size: 345%;
+    }
+}
+.c_hd {
+    position: relative;
+}
+.hide {
+    display: none;
+}
+.block {
+    display: block;
+}
+.floatL {
+    float: left;
+}
+.floatR {
+    float: right;
+}
+.gray666 {
+    color: #666;
+}
+.gray333 {
+    color: #333;
+}
+.gray999 {
+    color: #999;
+}
+/*tttt*/
+
+.grayccc {
+    color: #ccc;
+}
+#wrap {
+    max-width: 750px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}

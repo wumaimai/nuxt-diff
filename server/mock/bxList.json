@@ -1,0 +1,35 @@
+{
+    "status": 1,
+    "errmsg":"",
+    "result": [{
+        "title": "完美人生",
+        "content": "梧桐树保险完美人生，梧桐树保险完美人生，梧桐树保险完美人生。",
+        "tagList": [{
+            "text": "推荐1",
+            "link": "www.baidu.com"
+        },{
+            "text": "推荐2",
+            "link": "www.baidu.com"
+        },{
+            "text": "推荐3",
+            "link": "www.baidu.com"
+        }],
+        "icon": "~/assets/img/logo.png",
+        "detailsLink": "www.baidu.com"
+    },{
+        "title": "美丽人生",
+        "content": "梧桐树保险美丽人生，梧桐树保险美丽人生，梧桐树保险美丽人生。",
+        "tagList": [{
+            "text": "推荐1",
+            "link": "www.baidu.com"
+        },{
+            "text": "推荐2",
+            "link": "www.baidu.com"
+        },{
+            "text": "推荐3",
+            "link": "www.baidu.com"
+        }],
+        "icon": "~/assets/img/logo.png",
+        "detailsLink": "www.baidu.com"
+    }]
+}
